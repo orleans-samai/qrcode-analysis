@@ -1,11 +1,27 @@
-# 🛡️ QRCode Analysis & Quishing Detector
+<div align="center">
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green.svg)](https://opencv.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Security: Anti-Phishing](https://img.shields.io/badge/Security-Anti--Phishing-red.svg)](#)
+# 🔒 QRCode Analysis & Quishing Detector
 
-> Ferramenta em tempo real em Python para inspeção e análise de segurança de QR Codes via captura de tela (*Print Screen*), prevenindo ataques de **Quishing** (QR Code Phishing) antes de qualquer acesso ao link.
+**Inspecione QR Codes direto da tela e descubra se são golpe antes de abrir o link.**
+
+Ferramenta em Python que lê QR Codes a partir de um *Print Screen* e calcula um score de risco contra **Quishing** (QR Code Phishing).
+
+<br />
+
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-visão_computacional-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![Linux](https://img.shields.io/badge/Linux-Zenity-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#1-pré-requisitos)
+[![Anti-Phishing](https://img.shields.io/badge/Segurança-Anti--Phishing-D73A49?style=for-the-badge)](#-o-problema-quishing)
+[![License: MIT](https://img.shields.io/badge/Licença-MIT-yellow?style=for-the-badge)](LICENSE)
+
+[O problema](#-o-problema-quishing) •
+[Funcionalidades](#-funcionalidades) •
+[Fluxo](#-fluxo-de-funcionamento) •
+[Instalação](#-como-instalar-e-usar) •
+[Modos de execução](#-modos-de-execução) •
+[Boas práticas](#-boas-práticas-de-segurança-com-qr-codes)
+
+</div>
 
 ---
 
@@ -33,7 +49,7 @@ Este projeto resolve essa vulnerabilidade ao permitir que você selecione a áre
 
 ---
 
-## 🏗️ Fluxo de Funcionamento
+## 🔀 Fluxo de Funcionamento
 
 ```text
  [ QR Code na Tela ]
@@ -194,4 +210,14 @@ Distribuído sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE) para 
 
 ---
 
-Desenvolvido por **[Orleans Samai](https://github.com/orleans-samai)** 🚀
+## 👤 Autor
+
+**Orleans Samai**
+
+[![GitHub](https://img.shields.io/badge/GitHub-orleans--samai-181717?style=flat-square&logo=github)](https://github.com/orleans-samai)
+
+<div align="center">
+
+<sub>Feito com 💙 por Orleans Samai</sub>
+
+</div>
